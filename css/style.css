@@ -17,6 +17,9 @@ a{
 }
 
 header{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
     height: 300px;
     width: 100%;
 
