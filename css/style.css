@@ -27,7 +27,8 @@ header{
 }
 
 .perfil{
-    margin-top: 30px;
+    text-align: center;
+    margin: 30px auto;
     justify-items: center; /*Horizontal*/
     align-content: center; /*Vertical*/
     width: 100%;
