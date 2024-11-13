@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    max-width: 700px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 300px;
+    width: 100%;
+
+}
+
+.perfil{
+    margin-top: 30px;
+    justify-items: center; /*Horizontal*/
+    align-content: center; /*Vertical*/
+    width: 100%;
+    height: inherit;
+
+}
+
+.img-perfil{
+
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+
+    text-align: center;
+    align-content: center;
+}
+
+.img-perfil img{
+    border-radius: 100%;
+    width: 190px;
+    border: 1px solid rgb(0, 0, 0);
+    height: auto;
+
+}
+
+.perfil h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.perfil h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/**/
+
+
+.btn-agendar{
+    
+    width: 100%;
+    height: 150px;
+    text-align: center; /*Horizontal*/
+    align-content: center; /*Vertical*/
+}
+
+.btn-agendar button{
+    margin-top: 50px;
+    background-color: transparent;
+    width: 350px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: quicksand;
+    border-radius: 30px;
+    box-shadow: black 0 0 3px;
+    cursor: pointer;
+}
+
+
+
+.text-motivo{
+    align-content: center;
+    height: 90px;
+    width: 100%;
+
+}
+
+.text-motivo h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.motivo{
+
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+
+.item{
+    align-content: center;
+    width: 100%;
+    height: 180px;
+    margin-top: 25px;
+    border-radius: 30px;
+    box-shadow: black 0 0 10px;
+}
+
+.item-text{
+
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 30px;
+    width: 80%;
+    border: 1px solid black;
+    padding: 15px;
+    text-shadow: black 5px 5px 10px;
+}
+
+.item h2{
+    text-shadow: black 0px 0px 15px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.item h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item1{
+    background-image: url("https://www.otempo.com.br/content/dam/otempo/editorias/cidades/2022/5/cidades-homem-e-atropelado-por-onibus-na-pista-do-move-ufmg-metallica-em-bh-show-atropelado-move-1709064347.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+    background-image: url("https://www.bh-airport.com.br/SiteAssets/images/timeline_1994.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item3{
+    background-image: url("https://thumbs.dreamstime.com/b/uma-mulher-que-espera-um-t%C3%A1xi-94301396.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contatos{
+
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+.contatos h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.contatos button{
+    box-shadow: black 0 0 3px;
+    background-color: transparent;
+    height: 50px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+/**/
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+}
+
+.copyright h1{
+    font-size: 25px;
+    font-weight: 100;
+    color: black;
+}
+
+.copyright h2{
+    font-size: 20px;
+    font-weight: 100;
+}
