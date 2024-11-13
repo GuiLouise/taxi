@@ -37,11 +37,11 @@ header{
 }
 
 .img-perfil{
-
+    margin: 0 auto;
+    text-align: center;
     width: 230px;
     height: 230px;
     overflow: hidden;
-
     text-align: center;
     align-content: center;
 }
