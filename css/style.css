@@ -9,7 +9,7 @@ body{
     text-align: center;
     box-sizing: border-box;
     justify-content: center;
-    max-width: 750px;
+
 
 }
 
@@ -18,7 +18,8 @@ a{
 }
 
 header{
-    height: 250px;
+
+    height: 300px;
     width: 100%;
     margin: 0 auto;
 
@@ -26,7 +27,7 @@ header{
 
 .perfil{
     text-align: center;
-    margin: 30px auto;
+    margin: 0 auto;
     justify-items: center; /*Horizontal*/
     align-content: center; /*Vertical*/
     width: 100%;
@@ -38,7 +39,7 @@ header{
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
     text-align: center;
     align-content: center;
@@ -46,20 +47,20 @@ header{
 
 .img-perfil img{
     border-radius: 100%;
-    width: 190px;
+    width: 130px;
     border: 1px solid rgb(0, 0, 0);
-    height: 190px;
+    height: 130px;
 
 }
 
 .perfil h1{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 300;
 }
 
 .perfil h2{
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 /**/
@@ -73,13 +74,13 @@ main{
 .btn-agendar{
     
     width: 100%;
-    height: 150px;
+    height: 100px;
     text-align: center; /*Horizontal*/
     align-content: center; /*Vertical*/
 }
 
 .btn-agendar button{
-    margin-top: 50px;
+    margin-bottom: 15px;
     background-color: transparent;
     width: 350px;
     height: 50px;
@@ -113,7 +114,7 @@ main{
 
 .item{
     align-content: center;
-    width: 70%;
+    width: 75%;
     height: 130px;
     margin-top: 40px;
     border-radius: 30px;
@@ -134,14 +135,14 @@ main{
 .item h2{
     text-shadow: black 0px 0px 15px;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 5px;
 }
 
 .item h3{
     color: white;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 500;
 }
 
@@ -167,7 +168,7 @@ main{
 }
 
 .contatos{
-    background-color: aqua;
+
     width: 100%;
     height: 250px;
     text-align: center;
@@ -182,7 +183,7 @@ main{
     box-shadow: black 0 0 3px;
     background-color: transparent;
     height: 50px;
-    width: 400px;
+    width: 350px;
     margin: 20px;
     border-radius: 30px;
     font-size: 25px;
