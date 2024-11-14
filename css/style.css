@@ -2,9 +2,11 @@
     margin: 0 auto;
     padding: 0;
     text-align: center;
+    color: white;
 }
 
 body{
+    background-color: rgb(17, 16, 16);
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
@@ -22,7 +24,6 @@ header{
     height: 300px;
     width: 100%;
     margin: 0 auto;
-
 }
 
 .perfil{
@@ -48,8 +49,9 @@ header{
 .img-perfil img{
     border-radius: 100%;
     width: 130px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     height: 130px;
+    box-shadow: rgb(255, 255, 255) 0 0 10px;
 
 }
 
@@ -90,6 +92,9 @@ main{
     border-radius: 30px;
     box-shadow: black 0 0 3px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: rgb(255, 255, 255) 0 0 10px;
+
 }
 
 
@@ -118,7 +123,8 @@ main{
     height: 130px;
     margin-top: 40px;
     border-radius: 30px;
-    box-shadow: black 0 0 10px;
+    box-shadow: rgb(255, 255, 255) 0 0 10px;
+    border: 1px white solid;
 }
 
 .item-text{
@@ -127,9 +133,10 @@ main{
     background-color: rgba(46, 46, 46, 0.295);
     border-radius: 30px;
     width: 70%;
-    border: 1px solid black;
+    border: 1px solid rgb(192, 192, 192);
     padding: 15px;
     text-shadow: black 5px 5px 10px;
+    backdrop-filter: blur(2px);
 }
 
 .item h2{
@@ -180,7 +187,7 @@ main{
 }
 
 .contatos button{
-    box-shadow: black 0 0 3px;
+    box-shadow: rgb(255, 255, 255) 0 0 10px;
     background-color: transparent;
     height: 50px;
     width: 350px;
@@ -189,6 +196,7 @@ main{
     font-size: 25px;
     font-weight: 100;
     cursor: pointer;
+    border: 1px white solid;
 }
 
 
@@ -196,7 +204,7 @@ main{
 
 
 footer{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(26, 25, 25);
     width: 100%;
     height: 150px;
     text-align: center;
@@ -206,7 +214,7 @@ footer{
 .copyright h1{
     font-size: 15px;
     font-weight: 100;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .copyright h2{
