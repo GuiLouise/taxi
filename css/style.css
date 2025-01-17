@@ -177,8 +177,8 @@ main{
 }
 
 .contatos{
-
-    width: 100%;
+    width: 80vw;
+    max-width: 350px;
     height: 250px;
     text-align: center;
 }
