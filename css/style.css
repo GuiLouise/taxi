@@ -84,7 +84,8 @@ main{
 .btn-agendar button{
     margin-bottom: 15px;
     background-color: transparent;
-    width: 350px;
+    width: 80vw;
+    max-width: 350px;
     height: 50px;
     font-size: 23px;
     font-weight: 400;
@@ -119,7 +120,8 @@ main{
 
 .item{
     align-content: center;
-    width: 75%;
+    width: 80vw;
+    max-width: 350px;
     height: 130px;
     margin-top: 40px;
     border-radius: 30px;
@@ -190,7 +192,8 @@ main{
     box-shadow: rgb(255, 255, 255) 0 0 10px;
     background-color: transparent;
     height: 50px;
-    width: 350px;
+    width: 80vw;
+    max-width: 350px;
     margin: 20px;
     border-radius: 30px;
     font-size: 25px;
