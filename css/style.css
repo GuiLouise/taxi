@@ -179,8 +179,10 @@ main{
 .contatos{
     width: 80vw;
     max-width: 350px;
-    height: 250px;
+    height: auto;
     text-align: center;
+    marging: 0 auto;
+    justify-content: center;
 }
 
 .contatos h1{
